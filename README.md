@@ -109,6 +109,3 @@ Dark-Particle based on the extraordinary work of:
 - [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
 - [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
 - and me [Sitdisch](https://github.com/sitdisch)
-
-<!-- Js scripts -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
