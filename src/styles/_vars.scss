@@ -1,0 +1,12 @@
+$main: #2A3E42;
+$sec: #8F887B;
+$accent: #AAC3AF;
+$header: #8F887B;
+$header-text: #fcfcfc;
+$cut: 550px;
+
+@mixin card-style {
+  background: #1D1E1C;
+  box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.4);
+  border-radius: 6px;
+}
