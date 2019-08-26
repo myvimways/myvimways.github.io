@@ -31,11 +31,11 @@ This is a simple dark jekyll theme blueprint. You can use it as a start template
 
 ## Setup at GitHub Pages
 
-Here is a procedure to publicize your page with GitHub Pages:
+Here is a procedure to publicize your pages at GitHub Pages:
 1.  <a class="github-button" href="https://github.com/sitdisch/Dark-Particle/fork" data-icon="octicon-repo-forked" aria-label="Fork sitdisch/Dark-Particle on GitHub">fork</a> this repository to your GitHub account
 2. edit the `_config.yml` to start your customization
 3. publicize your customized repository on [GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
-4. access your page at `https://<username>.github.io/Dark-Particle/` and be proud 
+4. access your pages at `https://<username>.github.io/Dark-Particle/` and be proud 
 
 Consider: your changes maybe take a while to occur at GitHub Pages
 
@@ -65,11 +65,12 @@ instagram_username: # insert your instagram username
 google-analytics:
   id: # insert your id
 ```
+Consider: the icons of Twitter etc. will occur automatically, if you set a username
 
 ## Other Customization
 - Appearance Customization
   - edit the scss files located at `src/styles/`
-    - Consider: maybe you have to run `sudo gulp` again to see your changes locally
+		- Consider: maybe you have to run `sudo gulp` again to see your changes
 - Particle Customization
   - edit the json data of the particle function at `/src/js/app.js`
   - look at [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
@@ -77,7 +78,7 @@ google-analytics:
 
 ## Local Running
 
-In order to compile the assets and run the blog locally you will need to do the following:
+In order to compile the assets and run the pages locally you will need to do the following:
 
 - Install [NodeJS and npm](https://nodejs.org/en/download/package-manager/)
   - for Ubuntu:
@@ -99,7 +100,7 @@ In order to compile the assets and run the blog locally you will need to do the 
 - install the [dependencies](https://yarnpkg.com/lang/en/docs/installing-dependencies/) (run `yarn`)
 - run `sudo gulp` 
   - if you get this kind of trouble `you Have Already Activated...` look [here](https://wholesome-sj.github.io/2019-07-15-jeklly-page-gem-errors-handling-%27you-have-already-activated%27) and do e.g. `sudo gem uninstall liquid`
-- if it works, you will find your page at `http://localhost:3000`
+- if it works, you will find your pages at `http://localhost:3000`
 
 ## Credits
 
