@@ -6,7 +6,7 @@
 ![Second Page](assets/img/Dark_Particle_2.png)
 ![Third Page](assets/img/Dark_Particle_3.png)
 
-This is a simple dark jekyll theme blueprint. You can use it as a start template to make your web appearance and portfolio awesome :smile:. It heavily based on the magnificent work of [Stephen Arsenault](https://github.com/s-arsenault/s-arsenault.github.io) and [Nathan Randecker](https://github.com/nrandecker/particle).
+This is a simple dark jekyll theme blueprint. For a light version look [here](https://github.com/mythemeway/Light-Particle). You can use it as a start template to make your web appearance and portfolio awesome :smile:. It heavily based on the magnificent work of [Stephen Arsenault](https://github.com/s-arsenault/s-arsenault.github.io) and [Nathan Randecker](https://github.com/nrandecker/particle).
 
 ## Table of Contents
 
@@ -40,14 +40,14 @@ Here is a procedure how to publicize your pages at GitHub Pages:
 
 Consider: your changes maybe take a while to occur at GitHub Pages
 
-In the following video you can see an example setup.
+In the following video can you see an example setup.
 [![Setup at GitHub Pages](assets/img/setup_at_github_pages.png)](https://youtu.be/TBFztsehFHU)
 
 ## Local Running
 
 In order to compile the assets and run the pages locally you will need to do the following:
 
-- Install [NodeJS and npm](https://nodejs.org/en/download/package-manager/)
+- install [NodeJS and npm](https://nodejs.org/en/download/package-manager/)
   - for Ubuntu:
     - `sudo apt install nodejs`
     - `sudo apt install npm`
@@ -69,7 +69,7 @@ In order to compile the assets and run the pages locally you will need to do the
   - if you get this kind of trouble "`you Have Already Activated...`" look [here](https://wholesome-sj.github.io/2019-07-15-jeklly-page-gem-errors-handling-%27you-have-already-activated%27) and do e.g. `sudo gem uninstall liquid`
 - if it works, you will find your pages at `http://localhost:3000`
 
-In the following video you can see an example how to run this theme locally.
+In the following video can you see an example how to run this theme locally.
 [![Run locally](assets/img/running_locally.png)](https://youtu.be/Krg_fIaFto0)
 
 ## Site and User Settings
@@ -107,8 +107,8 @@ Consider: the icons of Twitter etc. will occur automatically, if you set a usern
 - Appearance Customization 
   - edit the scss files located at `src/styles/` 
     - Consider: maybe you have to run `sudo gulp` again to see your changes 
-    - In the following video you can see an example how to change the color of the text title of your pages.
-      [![Change color](assets/img/change_color.png)](https://youtu.be/uzld1wBOfag)
+    - In the following video can you see an example how to change the title color of your pages.
+      [![Change color](assets/img/change_color.png)](https://youtu.be/FzXewJV8JkI)
 
 ## Credits
 
