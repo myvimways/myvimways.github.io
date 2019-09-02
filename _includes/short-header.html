@@ -1,0 +1,42 @@
+<div id="particles-js" class="short-particles">
+  <ul id="short-hex-header" class="clear">{% for i in (1..14) %}
+    <li class="hex-header-li" id="#hex{{ forloop.index }}">
+      <div class="hex-header-div">
+        <a class="hex-header-link" href="#hex{{ forloop.index }}"></a>
+      </div>
+    </li>{% endfor %}
+  </ul>
+  <div class="short-header">
+    <h1>
+      <span class="site-title">{{site.username}}</span>
+      <div class="short-header-icons">
+        {% if site.email != null %}
+        <a aria-label="Send email" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
+        {% endif %}
+        {% if site.github_username != null %}
+        <a aria-label="Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.youtube_username != null %}
+        <a aria-label="YouTube" target="_blank" href="https://youtube.com/c/{{site.youtube_username}}"><i class="icon fa fa-youtube-play" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.linkedin_username != null %}
+        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.twitter_username != null %}
+        <a aria-label="Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.instagram_username != null %}
+        <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/{{site.instagram_username}}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.facebook_username != null %}
+        <a aria-label="Facebook" target="_blank" href="https://fb.com/{{site.facebook_username}}"><i class="icon fa fa-facebook-square" aria-hidden="true"></i></a>
+        {% endif %}
+      </div>
+    </h1>
+    <div class="short-header-links">
+      <a class="link" href="{{ "/" | prepend: site.baseurl }}">Home</a>
+      <a class="spacer">|</a>
+      <a class="link" href="#projects" data-scroll>Projects</a>
+    </div>
+  </div>
+</div>

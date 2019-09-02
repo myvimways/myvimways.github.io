@@ -1,0 +1,28 @@
+# Site settings
+title: MyWays
+description: Website description.
+encoding: utf-8
+markdown: kramdown
+future: true # allow posts with future dates
+
+# User settings
+username: Username
+user_title: Your_title
+user_picture: "/assets/img/User_picture.png"
+user_description: Description of your experiences.
+email: your_email_address
+github_username: your_github_username
+twitter_username: your_twitter_username
+youtube_username: # your_youtube_username
+linkedin_username: # your_linkedin_username
+facebook_username: # your_facebook_username
+instagram_username: # your_instagram_username
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
+
+plugins:
+  - github-pages

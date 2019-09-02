@@ -1,0 +1,9 @@
+_site
+.sass-cache
+node_modules
+.DS_STORE
+Gemfile.lock
+:w
+*~
+*.swp
+yarn-error.log

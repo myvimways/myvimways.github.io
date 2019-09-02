@@ -1,0 +1,36 @@
+.nav{
+   background: $main;
+   line-height: 1.5;
+   position: absolute;
+   width: 100%;
+   padding-left: 5px;
+   border-radius: 6px;
+   background-color: $main;
+   background: $main; /* Old browsers */
+   background: -moz-linear-gradient(-45deg, $main 0%, #213134 52%, $main 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(-45deg, $main 0%,#213134 52%, $main 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(135deg, $main 0%,#213134 52%, $main 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  .link {
+     text-decoration: none;
+     display: inline-block;
+     padding: 0px 3px;
+     text-align: center;
+     color: white;
+     font-size: 18px;
+    @media only screen and (min-width:$cut){
+      font-size: 20px;
+    }
+    &:hover, &:active {
+      color: $accent;
+    }
+   }
+   .link-right {
+     text-align: right;
+     float: right;
+     padding-right: 15px;
+   }
+   .link-left {
+     text-align: left;
+     float: left;
+   }
+}
