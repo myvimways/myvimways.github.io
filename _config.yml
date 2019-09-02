@@ -6,14 +6,14 @@ markdown: kramdown
 future: true # allow posts with future dates
 
 # User settings
-username: Username
+username: Sitdisch
 user_title: Your_title
 user_picture: "/assets/img/User_picture.png"
 user_description: Description of your experiences.
-email: your_email_address
-github_username: your_github_username
-twitter_username: your_twitter_username
-youtube_username: # your_youtube_username
+email: sitdisch@gmx.de
+github_username: sitdisch
+youtube_channel_id: UCMFn6ns1rZarJ9YdVI0n2Zg
+twitter_username: # your_twitter_username
 linkedin_username: # your_linkedin_username
 facebook_username: # your_facebook_username
 instagram_username: # your_instagram_username
