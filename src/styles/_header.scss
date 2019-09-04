@@ -337,8 +337,8 @@
     }
   }
   .header-logo {
-    max-height: 80%;
-    max-width: 80%;
+    max-height: 90%;
+    max-width: 90%;
   }
 }
 
@@ -380,8 +380,8 @@
     }
   }
   .header-logo {
-    max-height: 60%;
-    max-width: 60%;
+    max-height: 80%;
+    max-width: 80%;
   }
 }
 
@@ -397,14 +397,14 @@
     margin-bottom: 10px;
   }
   .header-logo {
-    max-height: 35%;
-    max-width: 35%;
+    max-height: 65%;
+    max-width: 65%;
   }
 }
 
-// @media only screen and (max-height: 900px) {
-//   .header-logo {
-//     max-height: 35%;
-//     max-width: 35%;
-//   }
-// }
+@media only screen and (max-height: 900px) {
+  .header-logo {
+    max-height: 65%;
+    max-width: 65%;
+  }
+}
