@@ -49,6 +49,15 @@
     color: $header-text;
     margin-top: 10px;
   }
+  .quote {
+    z-index: 55;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    line-height: 1;
+    color: $header-text;
+    margin-top: 10px;
+  }
   h1{
     margin: 5px 0px;
     padding: 0px;
@@ -263,6 +272,9 @@
     .user-description {
       font-size: 50px;
     }
+    .quote {
+      font-size: 21px;
+    }
   }
   .header-links {
     margin-bottom: 25px;
@@ -280,6 +292,10 @@
       height: 35px;
       font-size: 35px;
     }
+  }
+  .header-logo {
+    max-height: 100%;
+    max-width: 100%;
   }
 }
 
@@ -299,6 +315,9 @@
     .user-description {
       font-size: 40px;
     }
+    .quote {
+      font-size: 18px;
+    }
   }
   .header-links {
     margin-bottom: 20px;
@@ -316,6 +335,10 @@
       height: 25px;
       font-size: 25px;
     }
+  }
+  .header-logo {
+    max-height: 80%;
+    max-width: 80%;
   }
 }
 
@@ -335,6 +358,9 @@
     .user-description {
       font-size: 30px;
     }
+    .quote {
+      font-size: 15px;
+    }
   }
   .header-links {
     margin-bottom: 15px;
@@ -352,6 +378,10 @@
       height: 25px;
       font-size: 25px;
     }
+  }
+  .header-logo {
+    max-height: 60%;
+    max-width: 60%;
   }
 }
 

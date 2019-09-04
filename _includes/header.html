@@ -13,9 +13,7 @@
           <img alt= site.username src="{{ site.user_picture | prepend: site.baseurl }}" />
       </div>
       <span class="user-description">{{site.username}}</span>
-      {% if site.user_title != null %}
-        <span class="user-description">{{site.user_title}}</span>
-      {% endif %}
+      <span class="quote"><p><i>“Ever tried. Ever failed.<br>No matter. Try again. Fail again. Fail better.”</i><br><small>- Samuel Beckett -</small></p></span>
     </h1> 
     <div class="header-icons">
       {% if site.email != null %}
@@ -46,5 +44,5 @@
       <a class="link link-right" href="#projects" data-scroll> Projects</a>
     </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-angle-double-down" aria-hidden="true"></i></a>
+  <a class="down" href="#gday" data-scroll><i class="icon fa fa-angle-double-down" aria-hidden="true"></i></a>
 </div>
