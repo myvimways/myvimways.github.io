@@ -266,11 +266,11 @@
   }
   .header {
     .site-title {
-      font-size: 80px;
+      font-size: 75px;
       padding: 10px 60px;
     }
     .user-description {
-      font-size: 50px;
+      font-size: 45px;
     }
     .quote {
       font-size: 21px;
@@ -279,10 +279,10 @@
   .header-links {
     margin-bottom: 25px;
     .link {
-      font-size: 30px;
+      font-size: 25px;
     }
     .link-center {
-      font-size: 30px;
+      font-size: 25px;
     }
   }
   .header-icons {
@@ -322,10 +322,10 @@
   .header-links {
     margin-bottom: 20px;
     .link {
-      font-size: 25px;
+      font-size: 20px;
     }
     .link-center {
-      font-size: 25px;
+      font-size: 20px;
     }
   }
   .header-icons {
@@ -365,10 +365,10 @@
   .header-links {
     margin-bottom: 15px;
     .link {
-      font-size: 20px;
+      font-size: 18px;
     }
     .link-center {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   .header-icons {
@@ -402,7 +402,36 @@
   }
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-height: 900px) and (min-width: 601px) {
+  .header {
+    .site-title {
+      font-size: 50px;
+      padding: 10px 50px;
+    }
+    .user-description {
+      font-size: 20px;
+    }
+    .quote {
+      font-size: 15px;
+    }
+  }
+  .header-links {
+    margin-bottom: 15px;
+    .link {
+      font-size: 17px;
+    }
+    .link-center {
+      font-size: 17px;
+    }
+  }
+  .header-icons {
+    margin-top: 10px;
+    .icon {
+      width: 25px;
+      height: 25px;
+      font-size: 25px;
+    }
+  }
   .header-logo {
     max-height: 65%;
     max-width: 65%;
