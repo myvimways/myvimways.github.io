@@ -393,16 +393,42 @@
   .hex-header-li:nth-child(3n+3) {
     margin-left: 25%;
   }
+  .header {
+    .site-title {
+      font-size: 18px;
+      padding: 2px 50px;
+    }
+    .user-description {
+      font-size: 12px;
+    }
+    .quote {
+      font-size: 10px;
+    }
+  }
   .header-links {
     margin-bottom: 10px;
+    .link {
+      font-size: 12px;
+    }
+    .link-center {
+      font-size: 12px;
+    }
+  }
+  .header-icons {
+    margin-top: 10px;
+    .icon {
+      width: 18px;
+      height: 18px;
+      font-size: 18px;
+    }
   }
   .header-logo {
-    max-height: 65%;
-    max-width: 65%;
+    max-height: 40%;
+    max-width: 40%;
   }
 }
 
-@media only screen and (max-height: 900px) and (min-width: 601px) {
+@media only screen and (max-height: 950px) and (min-width: 601px) {
   .header {
     .site-title {
       font-size: 50px;
@@ -427,13 +453,85 @@
   .header-icons {
     margin-top: 10px;
     .icon {
-      width: 25px;
-      height: 25px;
-      font-size: 25px;
+      width: 22px;
+      height: 22px;
+      font-size: 22px;
     }
   }
   .header-logo {
     max-height: 65%;
     max-width: 65%;
+  }
+}
+
+@media only screen and (max-height: 700px) and (min-width: 601px) {
+  .header {
+    .site-title {
+      font-size: 25px;
+      padding: 5px 50px;
+    }
+    .user-description {
+      font-size: 15px;
+    }
+    .quote {
+      font-size: 12px;
+    }
+  }
+  .header-links {
+    margin-bottom: 12px;
+    .link {
+      font-size: 15px;
+    }
+    .link-center {
+      font-size: 15px;
+    }
+  }
+  .header-icons {
+    margin-top: 10px;
+    .icon {
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+    }
+  }
+  .header-logo {
+    max-height: 55%;
+    max-width: 55%;
+  }
+}
+
+@media only screen and (max-height: 500px) and (min-width: 601px) {
+  .header {
+    .site-title {
+      font-size: 18px;
+      padding: 2px 50px;
+    }
+    .user-description {
+      font-size: 12px;
+    }
+    .quote {
+      font-size: 10px;
+    }
+  }
+  .header-links {
+    margin-bottom: 10px;
+    .link {
+      font-size: 12px;
+    }
+    .link-center {
+      font-size: 12px;
+    }
+  }
+  .header-icons {
+    margin-top: 10px;
+    .icon {
+      width: 18px;
+      height: 18px;
+      font-size: 18px;
+    }
+  }
+  .header-logo {
+    max-height: 40%;
+    max-width: 40%;
   }
 }
