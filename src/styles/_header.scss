@@ -128,9 +128,9 @@
   .icon {
     text-align: center;
     color: $header-text;
-    width: 15px;
-    height: 15px;
-    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
     padding: 10px;
     margin: 4px 4px;
     border-radius: 50%;
@@ -405,31 +405,31 @@
 @media only screen and (max-height: 900px) and (min-width: 601px) {
   .header {
     .site-title {
-      font-size: 50px;
-      padding: 10px 50px;
+      font-size: 40px;
+      padding: 3px 50px;
     }
     .user-description {
-      font-size: 20px;
+      font-size: 25px;
     }
     .quote {
-      font-size: 15px;
+      font-size: 12px;
     }
   }
   .header-links {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     .link {
-      font-size: 17px;
+      font-size: 15px;
     }
     .link-center {
-      font-size: 17px;
+      font-size: 15px;
     }
   }
   .header-icons {
-    margin-top: 10px;
+    margin-top: 5px;
     .icon {
-      width: 25px;
-      height: 25px;
-      font-size: 25px;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
     }
   }
   .header-logo {
