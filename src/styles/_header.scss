@@ -51,7 +51,7 @@
   }
   .quote {
     z-index: 55;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     display: block;
     line-height: 1;
@@ -128,9 +128,9 @@
   .icon {
     text-align: center;
     color: $header-text;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
+    width: 23px;
+    height: 23px;
+    font-size: 23px;
     padding: 10px;
     margin: 4px 4px;
     border-radius: 50%;
@@ -412,11 +412,11 @@
       font-size: 25px;
     }
     .quote {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
   .header-links {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     .link {
       font-size: 15px;
     }
@@ -427,9 +427,9 @@
   .header-icons {
     margin-top: 5px;
     .icon {
-      width: 20px;
-      height: 20px;
-      font-size: 20px;
+      width: 23px;
+      height: 23px;
+      font-size: 23px;
     }
   }
   .header-logo {
