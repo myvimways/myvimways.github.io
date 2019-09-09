@@ -39,18 +39,15 @@
   .icon {
     text-align: center;
     color: $header-text;
-    width: 19px;
-    height: 19px;
     font-size: 19px;
-    padding: 10px;
+    padding: 9px;
     margin: 0px 0px;
     border-radius: 50%;
     border: 2px solid $header;
     transition: all .7s;
     @media only screen and (min-width:$cut){
-      width: 25px;
-      height: 25px;
-      font-size: 25px;
+      font-size: 23px;
+      padding: 12px;
     }
     &:hover, &:active {
       color: #1B1B1A;
