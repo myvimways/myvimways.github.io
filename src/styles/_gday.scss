@@ -6,9 +6,9 @@
   background: #1D1E1C; /* Old browsers */
   border-radius: 6px;
   box-shadow: 4px 4px 7px rgba(70, 70, 70, 0.4);
-  // @media only screen and (min-width: $cut) {
-  //   width: 80%;
-  // }
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
 }
 
 .user {

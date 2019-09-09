@@ -92,10 +92,7 @@
     margin: 5px;
     transition: all .7s;
     padding-left: 3px;
-    &:hover {
-      color: $accent;
-    }
-    &:active {
+    &:hover, &:active {
       color: $accent;
     }
   }
@@ -128,19 +125,13 @@
   .icon {
     text-align: center;
     color: $header-text;
-    width: 23px;
-    height: 23px;
     font-size: 23px;
     padding: 10px;
     margin: 4px 4px;
     border-radius: 50%;
     border: 2px solid $header;
     transition: all .7s;
-    &:hover {
-      color: #1B1B1A;
-      background: $header;
-    }
-    &:active {
+    &:hover, &:active {
       color: #1B1B1A;
       background: $header;
     }
@@ -171,10 +162,7 @@
       fill: #fff;
       -webkit-animation: pulse 3.3s infinite;
       animation: pulse 3.3s infinite;
-      &:hover {
-        color: $accent;
-      }
-      &:active {
+      &:hover, &:active {
         color: $accent;
       }
   }
@@ -288,9 +276,8 @@
   .header-icons {
     margin-top: 12px;
     .icon {
-      width: 35px;
-      height: 35px;
       font-size: 35px;
+      padding: 15px;
     }
   }
   .header-logo {
@@ -331,9 +318,8 @@
   .header-icons {
     margin-top: 11px;
     .icon {
-      width: 25px;
-      height: 25px;
-      font-size: 25px;
+      font-size: 27px;
+      padding: 13px;
     }
   }
   .header-logo {
@@ -374,9 +360,8 @@
   .header-icons {
     margin-top: 10px;
     .icon {
-      width: 25px;
-      height: 25px;
       font-size: 25px;
+      padding: 11px;
     }
   }
   .header-logo {
@@ -427,9 +412,8 @@
   .header-icons {
     margin-top: 5px;
     .icon {
-      width: 23px;
-      height: 23px;
       font-size: 23px;
+      padding: 10px;
     }
   }
   .header-logo {
