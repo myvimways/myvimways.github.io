@@ -17,8 +17,7 @@ facebook_username: # your_facebook_username
 instagram_username: # your_instagram_username
 
 # Google-analytics
-google-analytics:
-  id: ""
+google_site_verification: A5hFTdxUW8tb3SxXwn-yxxzTPAvUF6KA7f8goqiiBoA
 
 exclude: ['package.json', 'src' , 'node_modules']
 
