@@ -3,7 +3,7 @@
   width: 85%;
   margin: 40px auto;
   padding: 25px;
-  // max-width: 1160px;
+  max-width: 1160px;
   background-color: #1D1E1C;
   background: #1D1E1C; /* Old browsers */
   border-radius: 6px;
@@ -17,6 +17,11 @@
     margin-bottom: 5px;
     color: #eeeeee;
     font-size: 2em;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
   }
   img { 
     max-width: 100%;

@@ -1,6 +1,6 @@
-@import "lib/normalize";
-@import "lib/fontawesome";
-@import "lib/devicon";
+@import 'lib/bootstrap/bootstrap';
+@import 'lib/fontawesome';
+@import 'lib/devicon';
 
 @import 'base';
 @import 'vars';
@@ -9,9 +9,9 @@
 @import 'short-header';
 @import 'about';
 @import 'gday';
-@import 'projects';
 @import 'content';
-@import 'menubar';
-@import 'footer';
+@import 'projects';
 @import 'mythemeway';
 @import 'myvimway';
+@import 'menubar';
+@import 'footer';
