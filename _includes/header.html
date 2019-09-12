@@ -17,32 +17,32 @@
     </h1> 
     <div class="header-icons">
       {% if site.email != null %}
-      <a aria-label="Send email" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
+      <a aria-label="Send email" target="_blank" href="mailto:{{site.email}}" title="Mail me"><i class="icon fa fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.github_username != null %}
-      <a aria-label="Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github" aria-hidden="true"></i></a>
+      <a aria-label="Github" target="_blank" href="https://github.com/{{site.github_username}}" title="My GitHub account"><i class="icon fa fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.youtube_channel_id != null %}
-      <a aria-label="YouTube" target="_blank" href="https://youtube.com/channel/{{site.youtube_channel_id}}"><i class="icon fa fa-youtube-play" aria-hidden="true"></i></a>
+      <a aria-label="YouTube" target="_blank" href="https://youtube.com/channel/{{site.youtube_channel_id}}" title="My YouTube account"><i class="icon fa fa-youtube-play" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.linkedin_username != null %}
-      <a aria-label="LinkedIn" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+      <a aria-label="LinkedIn" href="https://www.linkedin.com/in/{{site.linkedin_username}}" title="My LinkedIn account"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.twitter_username != null %}
-      <a aria-label="Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+      <a aria-label="Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}" title="My Twitter account"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.instagram_username != null %}
-      <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/{{site.instagram_username}}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+      <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/{{site.instagram_username}}" title="My Instagram account"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.facebook_username != null %}
-      <a aria-label="Facebook" target="_blank" href="https://fb.com/{{site.facebook_username}}"><i class="icon fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a aria-label="Facebook" target="_blank" href="https://fb.com/{{site.facebook_username}}" title="My Facebook account"><i class="icon fa fa-facebook-square" aria-hidden="true"></i></a>
       {% endif %}
-  </div>
-  <div class="header-links">
-      <a class="link link-left" href="#mythemeway" data-scroll>MyThemeWay</a>
+    </div>
+    <div class="header-links">
+      <a class="link link-left" href="#mythemeway" title="Jump there" data-scroll>MyThemeWay</a>
       <span class="link-center">|</span>
-      <a class="link link-right" href="#myvimway" data-scroll> MyVimWay</a>
+      <a class="link link-right" href="#myvimway" title="Jump there" data-scroll> MyVimWay</a>
     </div>
   </div>
-  <a class="down" href="#gday_top" data-scroll><i class="icon fa fa-angle-double-down" aria-hidden="true"></i></a>
+  <a class="down" href="#gday_top" title="Go down" data-scroll><i class="icon fa fa-angle-double-down" aria-hidden="true"></i></a>
 </div>
