@@ -147,7 +147,7 @@
   margin: 0 auto;
   display: block;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   cursor: pointer;
   .icon {
       position: absolute;
@@ -284,6 +284,9 @@
     max-height: 100%;
     max-width: 100%;
   }
+  .down {
+    font-size: 45px;
+  }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 901px) {
@@ -326,6 +329,9 @@
     max-height: 90%;
     max-width: 90%;
   }
+  .down {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 900px) and (min-width: 601px) {
@@ -367,6 +373,9 @@
   .header-logo {
     max-height: 80%;
     max-width: 80%;
+  }
+  .down {
+    font-size: 35px;
   }
 }
 
