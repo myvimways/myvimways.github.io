@@ -19,8 +19,9 @@ jobs:
     - name: Create Results
       run: |
         cd nested
+        export LIGHTHOUSE_BADGES_PARAMS="--throttling.cpuSlowdownMultiplier=2"
         ./src/index.js -u https://sitdisch.github.io https://sitdisch.github.io/mythemeway/2020/11/01/dark-particle.html https://sitdisch.github.io/mythemeway/2020/11/01/light-particle.html https://sitdisch.github.io/privacy-policy.html -r -b plastic -o sitdisch/mobile
-        export LIGHTHOUSE_BADGES_PARAMS="--preset=desktop"
+        export LIGHTHOUSE_BADGES_PARAMS="--preset=desktop --throttling.cpuSlowdownMultiplier=1"
         ./src/index.js -u https://sitdisch.github.io https://sitdisch.github.io/mythemeway/2020/11/01/dark-particle.html https://sitdisch.github.io/mythemeway/2020/11/01/light-particle.html https://sitdisch.github.io/privacy-policy.html -r -b plastic -o sitdisch/desktop
         cp -r sitdisch ../lighthouse-results/
         cd ..
