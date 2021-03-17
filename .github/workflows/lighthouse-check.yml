@@ -36,3 +36,46 @@ jobs:
       with:
         repository: 'sitdisch/cloud'
         github_token: ${{ secrets.SITDISCH_REPO_TOKEN }}
+
+# RESIDUUM
+#
+# USE OF FOO-SOFTWARE/LIGHTHOUSE-CHECK-ACTION@MASTER
+# on:
+#   page_build:
+#   schedule:
+#     - cron: '55 0 * * *'
+# jobs:
+#   lighthouse-check:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@master
+#       - run: mkdir /tmp/artifacts
+#       - name: Run Lighthouse
+#         uses: foo-software/lighthouse-check-action@master
+#         with:
+#           emulatedFormFactor: "desktop"
+#           outputDirectory: /tmp/artifacts
+#           urls: 'https://mytestdummy.github.io,https://mytestdummy.github.io/projects/2020/10/31/project-1.html,https://mytestdummy.github.io/projects/2020/10/31/project-2.html'
+#       - name: Upload artifacts
+#         uses: actions/upload-artifact@master
+#         with:
+#           name: Lighthouse reports
+#           path: /tmp/artifacts
+# name: Lighthouse Check
+
+# on:
+#   page_build:
+#   schedule:
+#     - cron: '55 0 * * *'
+
+# jobs:
+#   lighthouse-check:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - run: npm install @emazzotta/lighthouse-badges@1.1.4
+#       - run: npm i -g lighthouse-badges lighthouse-badges --urls https://www.mytestdummy.github.io -o test_results
+#       - name: Upload artifacts
+#         uses: actions/upload-artifact@master
+#         with:
+#           name: Lighthouse Results
+#           path: /tmp/artifacts
