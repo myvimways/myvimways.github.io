@@ -1,8 +1,16 @@
 /*!
- * devicon-original.svg, sass-original.svg, ruby-original.svg, babel-original.svg
+ * devicon-original.svg, sass-original.svg, babel-original.svg
  * 
  * License: MIT
  * Source: https://devicons.github.io/devicon/
+ *
+ */
+ 
+/*!
+ * rubygems_logo.svg 
+ * 
+ * License: MIT  
+ * Source: https://rubygems.org/pages/about
  *
  */
  
