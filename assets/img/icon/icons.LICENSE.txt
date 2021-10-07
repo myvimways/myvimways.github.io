@@ -49,14 +49,6 @@
  */
  
 /*!
- * gulp.svg
- * 
- * License: MIT
- * Source: https://gulpjs.com/
- *
- */
- 
-/*!
  * bootstrap.svg
  * 
  * License: MIT
