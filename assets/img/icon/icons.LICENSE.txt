@@ -34,14 +34,6 @@
  *
  */
 
-/*! particle.svg
- * 
- * License: CC0 1.0 Universal
- * Source: https://svgsilh.com/image/150919.html
- * Copyright © svgsilh.com
- *
- */
-
 /*! bootstrap.svg
  * 
  * License: MIT
